@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Horário de corrida</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <h1>Cadastro de transporte </h1>
+</head>
+
+<body>
+  <section>
+    <form action="https://formsubmit.co/ismailearliene@gmail.com" method="POST">
+       <p>Nome: </p>
+       <input type="text"  name="Nome" id="nome">
+      
+     <p>km saída:</p><input type="number" name="Quilometragem_inicial" id="km">
+      <p>Km final:</p><input type="number" name="Quilometragem Final" id="kmfim">
+   
+     <p> Horário Saída:</p><input type="time"name="Horário de saida"id="hrSaida">
+   
+    <p>Horário de chegada: </p>
+    <input type="time" name="Horário de chegada" id="hrChegada">
+    
+      <textarea  type="text" name="total_de_quilometros" id="total"placeholder="total_de_quilometros"></textarea>
+    <p>Comentários</p>
+    <textarea name="comentar"name="Mensagem"id="textA" cols="25" rows="5"></textarea>
+
+      <input type="submit" value="Enviar" id="btn">
+      <input type="hidden" name="_subject" value="Novo envio!" >
+      <input type="text" name="_honey" style="display: none;">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="Novo envio!" >
+      <input type="text" name="_honey" style="display: none;">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="http://127.0.0.1:5500/sucesso.html">
+
+    </form>
+  </section>
+<p id="res"></p>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+*{
+  margin: 0%;
+  padding: 0%;
+
+}
+
+body {
+    font-size: 15pt;
+    background-color: #666462;
+    color: #ffff;
+    font-family:sans-serif
+}
+
+h1{
+  display:flex;
+  margin: auto;
+  font-size: 20pt;
+  text-align: center;
+  margin-top: 50px;
+  color: #5da2da;
+  text-shadow: 1px 5px 10px black;
+  border: solid 1px #5da2da;
+  width:80%;
+}
+
+section{
+  display:flex;
+  margin: auto;
+  border: solid 1px #5da2da;
+  margin-top: 10px;
+  width:80%;
+
+
+}
+form {
+  
+ display: flex;
+ align-items: center;
+ margin: auto;
+ flex-direction: column;
+ margin-top: 5px;
+ width: 50%;
+ font-size: 1rem;
+}
+
+#hrSaida,#hrChegada {
+ color: #ffff;
+ 
+
+  
+}
+input {
+  background: transparent;
+  width: 100px;
+  text-align: center;
+  outline: none;
+  border-top: none; 
+  border-left: none;
+  border-right: none;
+  color: #ffff;
+  margin-top: 10px;
+}
+
+#btn {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 150px;
+  padding: 5px;
+  background: #2f8edb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  box-shadow:  1px 0px 15px black;
+  }
+  #btn:hover{
+    background-color: #07528f;
+    color: #ffff;
+  }
+textarea
+{
+  outline: none;
+
+}
+
+p{
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+/*saudação*/
+
+#obrigado{
+text-align: center;
+margin-top: 10%;
+font-size: 3rem;
+}
+
+#voltar{
+  display: flex;
+  margin: auto;
+  width: 45px;
+  margin-top: 15%;
+  background-color: #2f8edb;
+  text-decoration: none;
+  padding: 16px 25px;
+  border-radius: 8px;
+ font-size: large;
+ transition: 0.3s;
+ 
+}
+#voltar:hover{
+  background-color: #07528f;
+  color: #ffff;
+  rotate: 360deg;
+}
