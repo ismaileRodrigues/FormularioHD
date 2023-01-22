@@ -77,8 +77,8 @@ form {
    }
    
 input {
-  border-radius: 14px;
-  width: 100px;
+  border-radius: 10px;
+  width: 180px;
   text-align: center;
   outline: none;
   background: #00ffff;
@@ -90,8 +90,8 @@ input {
 #btn {
   margin-top: 10px;
   margin-bottom: 20px;
-  width: 150px;
-  padding: 5px;
+  width: 200px;
+  padding: 10px;
   background: #2f8edb;
   border: none;
   border-radius: 5px;
